@@ -121,3 +121,9 @@ ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 room = { id = "androidx.room", version.ref = "room" }
+floosi-android-application = { id = "floosi.android.application" }
+floosi-android-hilt = { id = "floosi.android.hilt" }
+floosi-android-library = { id = "floosi.android.library" }
+floosi-android-library-compose = { id = "floosi.android.library.compose" }
+floosi-android-room = { id = "floosi.android.room" }
+floosi-jvm-library = { id = "floosi.jvm.library" }
