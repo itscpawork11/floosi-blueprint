@@ -3,6 +3,7 @@ package com.floosi.buildlogic
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.dependencies
+import org.gradle.kotlin.dsl.platform
 
 class FloosiAndroidLibraryComposePlugin : Plugin<Project> {
     override fun apply(target: Project) {
@@ -10,7 +11,7 @@ class FloosiAndroidLibraryComposePlugin : Plugin<Project> {
         target.plugins.apply("org.jetbrains.kotlin.plugin.compose")
 
         target.dependencies {
-            add("implementation", target.libs().findLibrary("compose-bom").get())
+            add("implementation", platform(target.libs().findLibrary("compose-bom").get()))
             add("implementation", target.libs().findLibrary("compose-ui").get())
             add("implementation", target.libs().findLibrary("compose-ui-graphics").get())
             add("implementation", target.libs().findLibrary("compose-ui-tooling-preview").get())

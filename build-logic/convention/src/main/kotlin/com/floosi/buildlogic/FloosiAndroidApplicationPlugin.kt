@@ -6,6 +6,7 @@ import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
 import org.gradle.kotlin.dsl.dependencies
+import org.gradle.kotlin.dsl.platform
 
 class FloosiAndroidApplicationPlugin : Plugin<Project> {
     override fun apply(target: Project) {
@@ -58,7 +59,7 @@ class FloosiAndroidApplicationPlugin : Plugin<Project> {
             add("implementation", target.libs().findLibrary("kotlin-stdlib").get())
             add("implementation", target.libs().findLibrary("kotlinx-serialization-json").get())
             add("implementation", target.libs().findLibrary("kotlinx-datetime").get())
-            add("implementation", target.libs().findLibrary("compose-bom").get())
+            add("implementation", platform(target.libs().findLibrary("compose-bom").get()))
             add("implementation", target.libs().findLibrary("compose-ui").get())
             add("implementation", target.libs().findLibrary("compose-ui-graphics").get())
             add("implementation", target.libs().findLibrary("compose-ui-tooling-preview").get())

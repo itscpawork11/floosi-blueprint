@@ -11,7 +11,7 @@ class DeleteTransactionUseCase(
 ) {
 
     suspend operator fun invoke(transaction: Transaction) {
-        transactionRepository.delete(transaction)
+        transactionRepository.delete(transaction.id)
 
         when (transaction.type) {
             TransactionType.EXPENSE -> {

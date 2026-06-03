@@ -15,10 +15,10 @@ class GetTransactionsUseCase(
     }
 
     fun observeByWallet(walletId: WalletId): Flow<List<Transaction>> {
-        return transactionRepository.observeByWallet(walletId)
+        return transactionRepository.observeByWallet(walletId.value)
     }
 
     fun observeByCategory(categoryId: CategoryId): Flow<List<Transaction>> {
-        return transactionRepository.observeByCategory(categoryId)
+        return transactionRepository.observeByCategory(categoryId.value)
     }
 }

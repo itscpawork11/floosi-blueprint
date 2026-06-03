@@ -9,6 +9,6 @@ class UpdateWalletBalanceUseCase(
 ) {
 
     suspend operator fun invoke(walletId: WalletId, delta: BigDecimal) {
-        walletRepository.adjustBalance(walletId, delta)
+        walletRepository.adjustBalance(walletId.value, delta)
     }
 }
