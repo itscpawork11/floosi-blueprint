@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallets_title">محافظي</string>
+    <string name="wallets_add">إضافة محفظة</string>
+    <string name="wallets_total_balance">إجمالي الرصيد</string>
+    <string name="wallets_options">خيارات</string>
+    <string name="wallets_archive">أرشفة</string>
+    <string name="wallets_back">رجوع</string>
+    <string name="wallets_edit">تعديل</string>
+    <string name="wallets_not_found">المحفظة مش موجودة</string>
+    <string name="wallets_no_transactions">مفيش معاملات لغاية دلوقتي</string>
+    <string name="wallets_name_required">اسم المحفظة مطلوب</string>
+    <string name="wallets_name_label">اسم المحفظة</string>
+    <string name="wallets_name_hint">مثلاً: المحفظة الرئيسية</string>
+    <string name="home_recent_transactions">آخر المعاملات</string>
+</resources>

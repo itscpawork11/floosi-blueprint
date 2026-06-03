@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_welcome_title">فلوسي</string>
+    <string name="onboarding_welcome_subtitle">فلوسك في جيبك 🔒</string>
+    <string name="onboarding_welcome_desc">تتبع مصروفاتك بسهولة، اعرف فلوسك راحت فين، وحط ميزانية تقدر تتحكم فيها</string>
+    <string name="onboarding_welcome_start">يلا نبدأ</string>
+    <string name="onboarding_skip">تخطي</string>
+    <string name="onboarding_profile_title">مين أنت؟ 🤔</string>
+    <string name="onboarding_profile_desc">عاوزين نعرفك عشان نخلي التجربة بتاعتك أحلى</string>
+    <string name="onboarding_profile_name_label">الاسم</string>
+    <string name="onboarding_profile_name_hint">مثلاً: أحمد</string>
+    <string name="onboarding_profile_currency_label">العملة</string>
+    <string name="onboarding_profile_continue">استمرار</string>
+    <string name="onboarding_wallet_title">أول محفظة 💼</string>
+    <string name="onboarding_wallet_desc">أضف أول محفظة عشان تبدأ تتبع فلوسك</string>
+    <string name="onboarding_wallet_name_label">اسم المحفظة</string>
+    <string name="onboarding_wallet_name_hint">مثلاً: المحفظة الرئيسية</string>
+    <string name="onboarding_wallet_type_label">نوع المحفظة</string>
+    <string name="onboarding_wallet_balance_label">الرصيد الحالي</string>
+    <string name="onboarding_wallet_balance_hint">مثلاً: ١٠٠٠٠</string>
+    <string name="onboarding_wallet_done">تم ✅</string>
+    <string name="onboarding_complete_title">جهزنا كل حاجة!</string>
+    <string name="onboarding_complete_desc">دلوقتي تقدر تبدأ تتبع فلوسك</string>
+    <string name="onboarding_complete_cta">هيا بنا! 🔥</string>
+    <string name="onboarding_default_wallet">المحفظة الرئيسية</string>
+</resources>

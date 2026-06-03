@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_app_locked">فلوسي مقفولة</string>
+    <string name="lock_enter_pin">ادخل ال PIN عشان تفتح التطبيق</string>
+    <string name="lock_setup_pin_prompt">أول مرة؟ اعمل PIN عشان تحمي فلوسك</string>
+    <string name="lock_biometric_hint">بصمة</string>
+    <string name="lock_setup_pin">إعداد PIN</string>
+    <string name="lock_wrong_pin">PIN غلط!</string>
+    <string name="lock_cooldown">انتظر %d ثانية</string>
+</resources>

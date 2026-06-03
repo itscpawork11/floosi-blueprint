@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فلوسي</string>
+    <string name="tagline">مدير مالك الشخصي</string>
+
+    <!-- Actions -->
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_done">تم</string>
+    <string name="action_today">اليوم</string>
+    <string name="action_hide">إخفاء</string>
+    <string name="action_note">ملاحظة</string>
+
+    <!-- Home -->
+    <string name="home_greeting">مرحباً</string>
+    <string name="home_balance_label">الرصيد الحالي</string>
+    <string name="home_this_month_change">التغير هذا الشهر</string>
+    <string name="home_total_balance">الرصيد الكلي</string>
+    <string name="home_monthly_income">دخل</string>
+    <string name="home_monthly_expense">صرف</string>
+    <string name="home_net_month">صافي الشهر</string>
+    <string name="home_recent_transactions">آخر المعاملات</string>
+    <string name="home_no_transactions">مفيش معاملات</string>
+    <string name="home_no_transactions_desc">أول معاملة هتبقا هنا</string>
+
+    <!-- Quick Add -->
+    <string name="quickadd_title">إضافة سريعة</string>
+    <string name="quickadd_amount_hint">المبلغ</string>
+    <string name="quickadd_add_transaction">إضافة معاملة</string>
+    <string name="quickadd_saved">تمام، اتسجلت 📝</string>
+    <string name="quickadd_note_hint">مثلاً: فطار النهاردة</string>
+    <string name="quickadd_amount_required">المبلغ مطلوب</string>
+    <string name="quickadd_invalid_amount">المبلغ غير صحيح</string>
+    <string name="quickadd_wallet_required">اختار المحفظة</string>
+
+    <!-- Errors -->
+    <string name="error_amount_zero">يجب أن يكون المبلغ أكبر من صفر</string>
+    <string name="error_wallet_required">يرجى اختيار المحفظة</string>
+
+    <!-- Categories -->
+    <string name="category_food">أكل وشرب</string>
+    <string name="category_transport">مواصلات</string>
+    <string name="category_shopping">تسوق</string>
+    <string name="category_bills">فواتير</string>
+    <string name="category_entertainment">ترفيه</string>
+    <string name="category_health">صحة</string>
+    <string name="category_education">تعليم</string>
+    <string name="category_salary">راتب</string>
+    <string name="category_investment">استثمار</string>
+    <string name="category_other">أخرى</string>
+    <string name="categories_title_expense">مصروفات</string>
+    <string name="categories_title_income">دخل</string>
+    <string name="categories_empty">مفيش بنود</string>
+    <string name="categories_empty_desc">تقدر تضيف بند جديد من الزرار</string>
+    <string name="categories_system_label">جهاز</string>
+
+    <!-- Tabs -->
+    <string name="tab_home">الرئيسية</string>
+    <string name="tab_transactions">المعاملات</string>
+    <string name="tab_wallets">المحافظ</string>
+    <string name="tab_categories">البنود</string>
+    <string name="tab_more">أكتر</string>
+
+    <!-- Lock -->
+    <string name="lock_app_locked">فلوسي مقفولة</string>
+    <string name="lock_enter_pin">ادخل ال PIN عشان تفتح التطبيق</string>
+    <string name="lock_setup_pin_prompt">أول مرة؟ اعمل PIN عشان تحمي فلوسك</string>
+    <string name="lock_biometric_hint">بصمة</string>
+    <string name="lock_setup_pin">إعداد PIN</string>
+    <string name="lock_wrong_pin">PIN غلط!</string>
+    <string name="lock_cooldown">انتظر %d ثانية</string>
+
+    <!-- PIN Setup -->
+    <string name="pin_choose">اختر PIN مكون من 4 أرقام</string>
+    <string name="pin_confirm">أعد إدخال PIN للتأكيد</string>
+    <string name="pin_mismatch">ال PIN مش مطابق، حاول تاني</string>
+    <string name="pin_use_biometric">استخدم البصمة</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_general">عام</string>
+    <string name="settings_name">الاسم</string>
+    <string name="settings_base_currency">العملة الأساسية</string>
+    <string name="settings_appearance">المظهر</string>
+    <string name="settings_dark_mode">الوضع الداكن</string>
+    <string name="settings_theme_system">تلقائي</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_app_lock">قفل التطبيق</string>
+    <string name="settings_data">البيانات</string>
+    <string name="settings_clear_data">مسح كل البيانات</string>
+    <string name="settings_clear_warning">احذر!</string>
+    <string name="settings_clear_confirm_title">مسح كل البيانات؟</string>
+    <string name="settings_clear_confirm_message">هتضيع كل معاملاتك ومحافظك. متقدرش ترجعها تاني.</string>
+    <string name="settings_clear_confirm">مسح</string>
+    <string name="settings_version">فلوسي v1.0.0</string>
+
+    <!-- Wallets -->
+    <string name="wallets_title">محافظي</string>
+    <string name="wallets_add">إضافة محفظة</string>
+    <string name="wallets_total_balance">إجمالي الرصيد</string>
+    <string name="wallets_options">خيارات</string>
+    <string name="wallets_archive">أرشفة</string>
+    <string name="wallets_back">رجوع</string>
+    <string name="wallets_edit">تعديل</string>
+    <string name="wallets_not_found">المحفظة مش موجودة</string>
+    <string name="wallets_no_transactions">مفيش معاملات لغاية دلوقتي</string>
+    <string name="wallets_name_required">اسم المحفظة مطلوب</string>
+    <string name="wallets_name_label">اسم المحفظة</string>
+    <string name="wallets_name_hint">مثلاً: المحفظة الرئيسية</string>
+    <string name="wallets_type_label">نوع المحفظة</string>
+    <string name="wallets_balance_hint">مثلاً: ١٠٠٠٠</string>
+
+    <!-- Transactions -->
+    <string name="transactions_title">تفاصيل المعاملة</string>
+    <string name="transactions_not_found">المعاملة مش موجودة</string>
+    <string name="transactions_filter_all">الكل</string>
+    <string name="transactions_filter_transfer">تحويل</string>
+    <string name="transactions_date">التاريخ</string>
+    <string name="transactions_fallback_note">معاملة</string>
+    <string name="transactions_note">ملاحظة</string>
+
+    <!-- Search -->
+    <string name="search_hint">ابحث في المعاملات...</string>
+    <string name="search_empty_title">ابحث في معاملاتك</string>
+    <string name="search_empty_desc">اكتب كلمة زي \"مطعم\" أو \"مرتب\"</string>
+    <string name="search_no_results">مالقيناش حاجة</string>
+    <string name="search_no_results_desc">جرب كلمة تانية</string>
+    <string name="search_results_count">%d نتيجة</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">فلوسي</string>
+    <string name="onboarding_welcome_subtitle">فلوسك في جيبك 🔒</string>
+    <string name="onboarding_welcome_desc">تتبع مصروفاتك بسهولة، اعرف فلوسك راحت فين، وحط ميزانية تقدر تتحكم فيها</string>
+    <string name="onboarding_welcome_start">يلا نبدأ</string>
+    <string name="onboarding_skip">تخطي</string>
+    <string name="onboarding_profile_title">مين أنت؟ 🤔</string>
+    <string name="onboarding_profile_desc">عاوزين نعرفك عشان نخلي التجربة بتاعتك أحلى</string>
+    <string name="onboarding_profile_name_label">الاسم</string>
+    <string name="onboarding_profile_name_hint">مثلاً: أحمد</string>
+    <string name="onboarding_profile_currency_label">العملة</string>
+    <string name="onboarding_profile_continue">استمرار</string>
+    <string name="onboarding_wallet_title">أول محفظة 💼</string>
+    <string name="onboarding_wallet_desc">أضف أول محفظة عشان تبدأ تتبع فلوسك</string>
+    <string name="onboarding_wallet_done">تم ✅</string>
+    <string name="onboarding_complete_title">جهزنا كل حاجة!</string>
+    <string name="onboarding_complete_desc">دلوقتي تقدر تبدأ تتبع فلوسك</string>
+    <string name="onboarding_complete_cta">هيا بنا! 🔥</string>
+    <string name="onboarding_default_wallet">المحفظة الرئيسية</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="quickadd_title">إضافة معاملة</string>
+    <string name="quickadd_saved">تمام، اتسجلت 📝</string>
+    <string name="quickadd_type_expense">صرف</string>
+    <string name="quickadd_type_income">دخل</string>
+    <string name="quickadd_type_transfer">تحويل</string>
+    <string name="quickadd_today">اليوم</string>
+    <string name="quickadd_hide">إخفاء</string>
+    <string name="quickadd_note">ملاحظة</string>
+    <string name="quickadd_note_hint">مثلاً: فطار النهاردة</string>
+    <string name="quickadd_amount_required">المبلغ مطلوب</string>
+    <string name="quickadd_save">حفظ</string>
+    <string name="quickadd_done">تم</string>
+    <string name="quickadd_chip_food">أكل</string>
+    <string name="quickadd_chip_transport">مواصلات</string>
+    <string name="quickadd_chip_rent">إيجار</string>
+    <string name="quickadd_chip_utilities">كهربا</string>
+    <string name="quickadd_chip_internet">نت</string>
+    <string name="pin_choose">اختر PIN مكون من 4 أرقام</string>
+    <string name="pin_confirm">أعد إدخال PIN للتأكيد</string>
+    <string name="pin_mismatch">ال PIN مش مطابق، حاول تاني</string>
+    <string name="pin_use_biometric">استخدم البصمة</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_delete">حذف</string>
+</resources>

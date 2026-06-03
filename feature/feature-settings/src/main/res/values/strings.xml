@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_general">عام</string>
+    <string name="settings_name">الاسم</string>
+    <string name="settings_base_currency">العملة الأساسية</string>
+    <string name="settings_appearance">المظهر</string>
+    <string name="settings_dark_mode">الوضع الداكن</string>
+    <string name="settings_theme_system">تلقائي</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_app_lock">قفل التطبيق</string>
+    <string name="settings_data">البيانات</string>
+    <string name="settings_clear_data">مسح كل البيانات</string>
+    <string name="settings_clear_warning">احذر!</string>
+    <string name="settings_clear_confirm_title">مسح كل البيانات؟</string>
+    <string name="settings_clear_confirm_message">هتضيع كل معاملاتك ومحافظك. متقدرش ترجعها تاني.</string>
+    <string name="settings_clear_confirm">مسح</string>
+    <string name="settings_version">فلوسي v1.0.0</string>
+</resources>

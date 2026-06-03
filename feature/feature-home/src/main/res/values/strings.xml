@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_total_balance">الرصيد الكلي</string>
+    <string name="home_monthly_income">دخل</string>
+    <string name="home_monthly_expense">صرف</string>
+    <string name="home_net_month">صافي الشهر</string>
+    <string name="home_recent_transactions">آخر المعاملات</string>
+    <string name="home_no_transactions">مفيش معاملات</string>
+    <string name="home_no_transactions_desc">أول معاملة هتبقا هنا</string>
+    <string name="home_income_label">دخل: %s</string>
+    <string name="home_expense_label">صرف: %s</string>
+    <string name="home_category_other">أخرى</string>
+    <string name="currency_egp">ج.م</string>
+</resources>

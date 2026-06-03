@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فلوسي</string>
+    <string name="tagline">مدير مالك الشخصي</string>
+
+    <!-- Actions -->
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_delete">حذف</string>
+
+    <!-- Home -->
+    <string name="home_greeting">مرحباً</string>
+    <string name="home_balance_label">الرصيد الحالي</string>
+    <string name="home_this_month_change">التغير هذا الشهر</string>
+
+    <string name="home_total_balance">الرصيد الكلي</string>
+    <string name="home_monthly_income">دخل</string>
+    <string name="home_monthly_expense">صرف</string>
+    <string name="home_net_month">صافي الشهر</string>
+    <string name="home_recent_transactions">آخر المعاملات</string>
+    <string name="home_no_transactions">مفيش معاملات</string>
+    <string name="home_no_transactions_desc">أول معاملة هتبقا هنا</string>
+
+    <!-- Quick Add -->
+    <string name="quickadd_title">إضافة سريعة</string>
+    <string name="quickadd_amount_hint">المبلغ</string>
+
+    <!-- Errors -->
+    <string name="error_amount_zero">يجب أن يكون المبلغ أكبر من صفر</string>
+    <string name="error_wallet_required">يرجى اختيار المحفظة</string>
+
+    <!-- Categories -->
+    <string name="category_food">أكل وشرب</string>
+    <string name="category_transport">مواصلات</string>
+    <string name="category_shopping">تسوق</string>
+    <string name="category_bills">فواتير</string>
+    <string name="category_entertainment">ترفيه</string>
+    <string name="category_health">صحة</string>
+    <string name="category_education">تعليم</string>
+    <string name="category_salary">راتب</string>
+    <string name="category_investment">استثمار</string>
+    <string name="category_other">أخرى</string>
+
+    <!-- Tabs -->
+    <string name="tab_home">الرئيسية</string>
+    <string name="tab_transactions">المعاملات</string>
+    <string name="tab_wallets">المحافظ</string>
+    <string name="tab_categories">البنود</string>
+    <string name="tab_more">أكتر</string>
+</resources>

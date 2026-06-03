@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transactions_title">تفاصيل المعاملة</string>
+    <string name="transactions_not_found">المعاملة مش موجودة</string>
+    <string name="transactions_filter_all">الكل</string>
+    <string name="transactions_filter_expense">صرف</string>
+    <string name="transactions_filter_income">دخل</string>
+    <string name="transactions_filter_transfer">تحويل</string>
+    <string name="transactions_date">التاريخ</string>
+    <string name="transactions_fallback_note">معاملة</string>
+    <string name="transactions_no_transactions">مفيش معاملات</string>
+    <string name="transactions_no_transactions_desc">أول معاملة هتبقا هنا</string>
+    <string name="quickadd_amount_required">المبلغ مطلوب</string>
+    <string name="quickadd_invalid_amount">المبلغ غير صحيح</string>
+    <string name="quickadd_wallet_required">اختار المحفظة</string>
+    <string name="transactions_note">ملاحظة</string>
+    <string name="wallets_back">رجوع</string>
+</resources>
