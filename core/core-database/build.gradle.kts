@@ -1,5 +1,5 @@
 plugins {
-    id("floosi.android.library")
+    id("floosi.android.library.compose")
     id("floosi.android.room")
     id("floosi.android.hilt")
 }
@@ -10,5 +10,4 @@ android {
 
 dependencies {
     implementation(project(":core:core-domain"))
-    implementation(libs.compose.ui.graphics)
 }
