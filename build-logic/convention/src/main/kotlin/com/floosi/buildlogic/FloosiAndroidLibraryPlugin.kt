@@ -24,9 +24,9 @@ class FloosiAndroidLibraryPlugin : Plugin<Project> {
             }
         }
 
-        target.tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile>().configureEach {
-            compilerOptions {
-                jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+        target.tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile::class.java).configureEach {
+            kotlinOptions {
+                jvmTarget = "17"
             }
         }
 
