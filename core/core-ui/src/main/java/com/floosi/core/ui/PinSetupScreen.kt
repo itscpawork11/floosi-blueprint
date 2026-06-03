@@ -59,8 +59,8 @@ fun PinSetupScreen(
     var errorMessage by remember { mutableStateOf("") }
     var biometricEnabled by remember { mutableStateOf(true) }
     val pinLength = 4
+    val pinMismatch = stringResource(R.string.pin_mismatch)
 
-    @Composable
     fun handleDigit(digit: Char) {
         if (pin.length >= pinLength) return
         pin += digit
@@ -78,7 +78,7 @@ fun PinSetupScreen(
                     onComplete()
                 } else {
                     isError = true
-                    errorMessage = stringResource(R.string.pin_mismatch)
+                    errorMessage = pinMismatch
                     pin = ""
                 }
             }
