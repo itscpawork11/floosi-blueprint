@@ -1,6 +1,7 @@
 package com.floosi.buildlogic
 
 import com.android.build.api.dsl.ApplicationExtension
+import org.gradle.api.JavaVersion
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
@@ -31,7 +32,7 @@ class FloosiAndroidApplicationPlugin : Plugin<Project> {
                     isMinifyEnabled = true
                     isShrinkResources = true
                     proguardFiles(
-                        target.getDefaultProguardFile("proguard-android-optimize.txt"),
+                        getDefaultProguardFile("proguard-android-optimize.txt"),
                         "proguard-rules.pro"
                     )
                 }
@@ -40,13 +41,16 @@ class FloosiAndroidApplicationPlugin : Plugin<Project> {
                 sourceCompatibility = JavaVersion.VERSION_17
                 targetCompatibility = JavaVersion.VERSION_17
             }
-            kotlinOptions {
-                jvmTarget = "17"
-            }
             packaging {
                 resources {
                     excludes += "/META-INF/{AL2.0,LGPL2.1}"
                 }
+            }
+        }
+
+        target.tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile>().configureEach {
+            compilerOptions {
+                jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
             }
         }
 
