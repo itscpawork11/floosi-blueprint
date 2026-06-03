@@ -29,7 +29,7 @@ data class CategoryItem(
     val id: String,
     val name: String,
     val icon: ImageVector,
-    val color: Color = MaterialTheme.colorScheme.primary,
+    val color: Color = Color.Unspecified,
 )
 
 @Composable

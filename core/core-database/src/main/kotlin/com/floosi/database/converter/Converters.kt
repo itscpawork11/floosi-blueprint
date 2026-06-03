@@ -1,6 +1,5 @@
 package com.floosi.database.converter
 
-import androidx.compose.ui.graphics.Color
 import androidx.room.TypeConverter
 import java.math.BigDecimal
 import java.time.Instant
@@ -27,16 +26,6 @@ class Converters {
     @TypeConverter
     fun toBigDecimal(value: String?): BigDecimal? {
         return value?.let { BigDecimal(it) }
-    }
-
-    @TypeConverter
-    fun fromColor(value: Color): Int {
-        return value.toArgb()
-    }
-
-    @TypeConverter
-    fun toColor(value: Int): Color {
-        return Color(value)
     }
 
     @TypeConverter

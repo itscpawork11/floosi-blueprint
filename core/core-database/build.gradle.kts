@@ -1,5 +1,5 @@
 plugins {
-    id("floosi.android.library.compose")
+    id("floosi.android.library")
     id("floosi.android.room")
     id("floosi.android.hilt")
 }

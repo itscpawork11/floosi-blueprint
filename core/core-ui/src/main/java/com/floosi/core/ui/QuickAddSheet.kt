@@ -66,6 +66,7 @@ fun QuickAddSheet(
     var showDatePicker by remember { mutableStateOf(false) }
     var isSaved by remember { mutableStateOf(false) }
     var error by remember { mutableStateOf<String?>(null) }
+    val amountRequired = stringResource(R.string.quickadd_amount_required)
 
     LaunchedEffect(isSaved) {
         if (isSaved) {
@@ -238,7 +239,7 @@ fun QuickAddSheet(
                 Button(
                     onClick = {
                         if (amount.isBlank()) {
-                            error = stringResource(R.string.quickadd_amount_required)
+                            error = amountRequired
                         } else {
                             isSaved = true
                         }

@@ -60,6 +60,7 @@ fun PinSetupScreen(
     var biometricEnabled by remember { mutableStateOf(true) }
     val pinLength = 4
 
+    @Composable
     fun handleDigit(digit: Char) {
         if (pin.length >= pinLength) return
         pin += digit

@@ -1,6 +1,5 @@
 package com.floosi.database.seed
 
-import androidx.compose.ui.graphics.Color
 import com.floosi.database.entity.CategoryEntity
 import com.floosi.database.entity.WalletEntity
 import java.math.BigDecimal
@@ -12,7 +11,7 @@ object SeedData {
     private val now: LocalDateTime = LocalDateTime.now(ZoneOffset.UTC)
     private val nowEpochMillis: Long = now.toInstant(ZoneOffset.UTC).toEpochMilli()
 
-    private fun color(hex: String): Color = Color(android.graphics.Color.parseColor(hex))
+    private fun color(hex: String): Int = android.graphics.Color.parseColor(hex)
 
     val wallets: List<WalletEntity> = listOf(
         WalletEntity(

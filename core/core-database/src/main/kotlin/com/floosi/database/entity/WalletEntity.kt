@@ -1,6 +1,5 @@
 package com.floosi.database.entity
 
-import androidx.compose.ui.graphics.Color
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.Index
@@ -21,7 +20,7 @@ data class WalletEntity(
     @ColumnInfo(name = "currency_code") val currencyCode: String = "EGP",
     @ColumnInfo(name = "balance") val balance: BigDecimal = BigDecimal.ZERO,
     @ColumnInfo(name = "initial_balance") val initialBalance: BigDecimal = BigDecimal.ZERO,
-    @ColumnInfo(name = "color_hex") val color: Color,
+    @ColumnInfo(name = "color_hex") val color: Int,
     @ColumnInfo(name = "icon_key") val iconKey: String,
     @ColumnInfo(name = "is_archived") val isArchived: Boolean = false,
     @ColumnInfo(name = "is_excluded") val isExcluded: Boolean = false,
