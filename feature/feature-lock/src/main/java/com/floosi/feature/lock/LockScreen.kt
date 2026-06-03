@@ -110,10 +110,11 @@ fun LockScreen(
                 )
             }
 
-            if (state.isError && state.errorMessageRes != null) {
+            val errorMessageRes = state.errorMessageRes
+            if (state.isError && errorMessageRes != null) {
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = stringResource(state.errorMessageRes),
+                    text = stringResource(errorMessageRes),
                     color = MaterialTheme.colorScheme.error,
                     style = MaterialTheme.typography.bodyMedium
                 )

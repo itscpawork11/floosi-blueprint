@@ -1,12 +1,8 @@
 package com.floosi.data.mapper
 
-import androidx.compose.ui.graphics.Color
 import com.floosi.database.entity.WalletEntity
 import com.floosi.domain.model.Wallet
 import com.floosi.domain.model.WalletType
-import java.time.Instant
-import java.time.LocalDateTime
-import java.time.ZoneOffset
 
 object WalletMapper {
 
@@ -17,7 +13,7 @@ object WalletMapper {
         currencyCode = currencyCode,
         balance = balance,
         initialBalance = initialBalance,
-        colorArgb = color.toArgb(),
+        colorArgb = color,
         iconKey = iconKey,
         isArchived = isArchived,
         isExcluded = isExcluded,
@@ -33,7 +29,7 @@ object WalletMapper {
         currencyCode = currencyCode,
         balance = balance,
         initialBalance = initialBalance,
-        color = Color(colorArgb),
+        color = colorArgb,
         iconKey = iconKey,
         isArchived = isArchived,
         isExcluded = isExcluded,

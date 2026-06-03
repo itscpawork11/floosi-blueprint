@@ -1,6 +1,5 @@
 package com.floosi.data.mapper
 
-import androidx.compose.ui.graphics.Color
 import com.floosi.database.entity.CategoryEntity
 import com.floosi.domain.model.Category
 import com.floosi.domain.model.CategoryType
@@ -12,7 +11,7 @@ object CategoryMapper {
         name = name,
         type = CategoryType.valueOf(type),
         iconKey = iconKey,
-        colorArgb = color.toArgb(),
+        colorArgb = color,
         parentId = parentId,
         isSystem = isSystem,
         isArchived = isArchived,
@@ -27,7 +26,7 @@ object CategoryMapper {
         name = name,
         type = type.name,
         iconKey = iconKey,
-        color = Color(colorArgb),
+        color = colorArgb,
         parentId = parentId,
         isSystem = isSystem,
         isArchived = isArchived,
