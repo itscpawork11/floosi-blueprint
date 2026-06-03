@@ -8,7 +8,7 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.coreUi)
-    implementation(projects.core.coreSecurity)
+    implementation(project(":core:core-ui"))
+    implementation(project(":core:core-security"))
     implementation(libs.navigation.compose)
 }

@@ -8,8 +8,8 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.coreUi)
-    implementation(projects.core.coreDomain)
-    implementation(projects.core.coreData)
+    implementation(project(":core:core-ui"))
+    implementation(project(":core:core-domain"))
+    implementation(project(":core:core-data"))
     implementation(libs.navigation.compose)
 }

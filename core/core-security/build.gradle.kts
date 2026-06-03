@@ -8,7 +8,7 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.coreCommon)
+    implementation(project(":core:core-common"))
     implementation(libs.security.crypto)
     implementation(libs.biometric)
 }
