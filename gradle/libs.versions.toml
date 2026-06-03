@@ -30,6 +30,10 @@ compose-ui-test = "1.7.6"
 # Android Gradle Plugin
 agp = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 
+# Build plugins (for build-logic convention plugins)
+ksp = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+room = { group = "androidx.room", name = "room-gradle-plugin", version.ref = "room" }
+
 # Kotlin
 kotlin-gradle = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 kotlin-serialization = { group = "org.jetbrains.kotlin", name = "kotlin-serialization", version.ref = "kotlin" }
