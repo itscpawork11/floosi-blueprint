@@ -12,5 +12,10 @@ class FloosiJvmLibraryPlugin : Plugin<Project> {
         target.repositories {
             mavenCentral()
         }
+
+        target.dependencies {
+            add("implementation", target.libs().findLibrary("kotlin-stdlib").get())
+            add("implementation", target.libs().findLibrary("coroutines-core").get())
+        }
     }
 }
